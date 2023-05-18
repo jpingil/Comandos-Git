@@ -1,0 +1,18 @@
+sudo apt install -> instalación git
+git --version -> versión de git instalada
+git init -> iniciar repositorio git
+git config --global user.name "nomeUsuario" -> indicamos o nome do usuario que vai facer modificacións
+git config --global user.email "emailUsuario" -> indicamos a dirección de email do usuario
+git config --list -> consultar a configuración de git
+git status -> para coñecer os cambios no repositorio
+git add . -> para que teña en conta os cambios feitos
+git commit -m "comentario" -> para facer un cambio con un comentario
+git branch -> consultar ramas
+git branch -M main -> para mover todo a rama main
+git remote add identificador URL_do_repositorio_GitHub -> para relacionar esta URL con un identificador
+git remote -> consultar a etiqueta de referencia
+git remote -v -> consultar a URL do repositorio
+git remote set-url -> cambiar a url do repositorio
+git remote rename -> cambiar o nome do identificador
+git push -u identificador rama -> para subir as carpetas/archivos sobre os que fixemos commit
+git log -> para ver un historial dos cambios feitos no repositorio 
